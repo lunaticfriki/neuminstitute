@@ -21,13 +21,12 @@ for the concrete Angular adaptation used inside `apps/web`.
 
 ## Content
 
-Text content copied from the `neum` Preact site (translations, team roster,
-page structure) lives in [`content/`](content/README.md). It's kept
-separate from `docs/architecture/` because it's product copy, not
-architecture reference material, and will be used to recreate the real
-pages in a follow-up pass — this repo currently only has the boilerplate:
-empty vertical-slice module folders, the shared error types, and the GSAP +
-Lenis animation wiring ported from `neum`.
+Site text content (translations, team roster, page structure) lives in
+[`content/`](content/README.md). It's kept separate from
+`docs/architecture/` because it's product copy, not architecture reference
+material, and will be used to build the real pages in a follow-up pass —
+this repo currently only has the boilerplate: empty vertical-slice module
+folders, the shared error types, and the GSAP + Lenis animation wiring.
 
 ## Getting started
 
