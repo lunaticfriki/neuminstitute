@@ -1,0 +1,22 @@
+{
+  "name": "neuminstitute",
+  "private": true,
+  "version": "0.0.0",
+  "description": "Neum Institute — Angular rebuild of the Neum music academy public site",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "dev:web": "pnpm --filter @neuminstitute/web dev",
+    "build": "pnpm -r --if-present build",
+    "test": "pnpm -r --if-present test",
+    "typecheck": "pnpm -r --if-present typecheck",
+    "arch-test": "pnpm -r --if-present arch-test",
+    "prepare": "husky"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^19.5.0",
+    "@commitlint/config-conventional": "^19.5.0",
+    "husky": "^9.1.7"
+  }
+}
