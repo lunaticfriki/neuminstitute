@@ -1,7 +1,6 @@
 # Neum Institute
 
-Monorepo for the Angular rebuild of the Neum music academy public site
-(originally built with Astro + Preact in the `neum` repo).
+Neum music academy public site
 
 ## Apps
 
